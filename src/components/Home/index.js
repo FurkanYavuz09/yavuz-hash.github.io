@@ -55,7 +55,7 @@ const Home = () => {
           <span className={`${letterClass} _12 `}>i !  </span>
           <br />
           <span className={`${letterClass} _13`}>I am</span>
-          {/* <span className={`${letterClass} _14`}></span> */}
+
           <img src={LogoTitle} alt="Sofware Developer" />
           <AnimatedLetters letterClass={letterClass}
           strArray={nameArray}
@@ -63,10 +63,10 @@ const Home = () => {
           <br />
           <AnimatedLetters letterClass={letterClass}
           strArray={jobArray}
-          idx={22} />
+          idx={8} />
           </h1>
-          <h2> Interests: Machine Learning/Artificial Intelligence/Data Science </h2>
-          <Link to="/contact" className='flat-button'> CONTACT ME</Link>
+          <h2> Interests: Machine Learning/Artificial Intelligence/Data Science/Networking/Graphics/ </h2>
+          <Link style={{ width: "100%", display: 'flex', justifyContent: 'center' }} to="/contact" className='flat-button'> CONTACT ME</Link>
         </div>
 
       </div>

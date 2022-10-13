@@ -1,5 +1,5 @@
 .nav-bar {
-  background: #FFC0CB;
+  background: #683335;
   width: 80px;
   height: 100%;
   position: absolute;
@@ -34,19 +34,20 @@
 
     a {
       font-size: 22px;
-      color: #ffff;
       display: block;
       line-height: 51px;
       height: 51px;
       position: relative;
       text-decoration: none;
-
+      svg {
+        color: #D2B48C;
+      }
       i {
         transition: all 0.3s ease-out;
       }
 
       &:hover {
-        color: #000000;
+        color: #D2B48C;
 
         svg {
           opacity: 0;
@@ -81,20 +82,14 @@
       &:after {
         content: 'ABOUT';
       }
+      
     }
 
     a.contact-link {
       &:after {
         content: 'CONTACT';
       }
-    }
-
-   
-
-    a.active {
-      svg {
-        color: #111;
-      }
+      
     }
   }
 
@@ -114,10 +109,12 @@
         display: block;
         font-size: 15px;
         line-height: 16px;
-        color: #0000;
+        svg {
+          color: #D2B48C;
+        }
 
         &:hover svg{
-          color: #123433;
+          color: #fff;
       }
       
       }

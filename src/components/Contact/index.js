@@ -36,21 +36,20 @@ const Contact = () => {
     <>
     <div className="container contact-page">
       <div className="text-zone">
-        <h1>
+        <h1 >
+          
           <AnimatedLetters
             letterClass={letterClass}
             strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
             idx={15}
           />
         </h1>
-        <p>
-          I am interested in freelance opportunities - especially on ambitious
-          or large projects. However, if you have any other requests or
-          questions, don't hesitate to contact me using below form either.
-        </p>
-        <div className="contact-form">
+        <h2 >
+          I am interested in internship/part-time opportunities for now because of my studies. You can reach me via below form.
+        </h2>
+        <div className="contact-form" >
           <form ref={form} onSubmit={sendEmail}>
-            <ul>
+            <ul style={{listStyleType:'none'}}>
               <li className="half">
                 <input placeholder="Name" type="text" name="user_name" required />
               </li>
@@ -70,11 +69,12 @@ const Contact = () => {
                 ></textarea>
               </li>
               <li>
-                <input type="submit" className="flat-button" value="SEND" />
+                <input  type="submit" className="flat-button" id="submit-button" value="SUBMIT" />
               </li>
             </ul>
           </form>
         </div>
+
       </div>
       
      

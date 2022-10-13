@@ -11,7 +11,7 @@ const Layout = () => {
 
         <Outlet />
         <span className="tags bottom-tags">
-          &lt;How you doin ?&gt;
+          &lt;How are you ne var you ?&gt;
           <br />
           <span className="bottom-tag-html">&lt;Fella&gt;</span>
         </span>
